@@ -3,6 +3,7 @@
 }
 
 body{
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +24,6 @@ body{
   }
   
   button {
-  background-color: rgb(243, 184, 23);
   border:none;
   border-radius: 10px;
   margin: 5px;
@@ -37,11 +37,31 @@ body{
   }
 
   button:hover{
-  top:-1px;
-  box-shadow:0 3px 5px #c9c8c8
+    top:-1px;
+    box-shadow:0 3px 5px #c9c8c8
   }
 
-  button:active{
+  #verde{
+    background-color: rgb(32, 165, 32);
+  }
+
+  #verde:active{
+    background-color: rgb(20, 121, 20);
+  }
+
+  #vermelho{
+    background-color: rgb(235, 18, 18);
+  }
+
+  #vermelho:active{
+    background-color: rgb(175, 29, 29);
+  }
+
+  #laranja{
+    background-color:rgb(255, 187, 0) ;
+  }
+
+  #laranja:active{
   background-color: rgb(218, 165, 22);
   }
   
