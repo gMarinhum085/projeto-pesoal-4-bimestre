@@ -50,9 +50,9 @@ export default function Cronometro() {
     <div>
       <h1>Cronômetro</h1>
       <p id="cronometro">00:00:00:000</p>
-      <button onClick={iniciarCronometro}>Iniciar</button>
-      <button onClick={pararCronometro}>Parar</button>
-      <button onClick={resetarCronometro}>Resetar</button>
+      <button id="verde" onClick={iniciarCronometro}>Iniciar</button>
+      <button id="vermelho" onClick={pararCronometro}>Parar</button>
+      <button id="laranja" onClick={resetarCronometro}>Resetar</button>
     </div>
   );
 }
