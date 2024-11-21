@@ -3,39 +3,53 @@
 }
 
 body{
-    background-color: rgb(19, 27, 41);
-    color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .App {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    font-family: Arial, sans-serif;
+  padding: 40px;
+  min-width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  border-radius: 30px;
+  background-color: rgb(241, 249, 255);
+  color: rgb(31, 37, 49);
+  box-shadow: 1px 5px 15px rgb(122, 121, 121);
   }
   
   button {
-    background-color: rgb(31, 191, 82);
-    border: rgb(31, 191, 82);
-    border-radius: 10px;
-    margin: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: aliceblue;
-    font-weight: bold;
-    cursor: pointer;
+  background-color: rgb(243, 184, 23);
+  border:none;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  transition: all .1s ease-in-out;
   }
 
   button:hover{
-    background-color: rgb(17, 142, 57);
+  top:-1px;
+  box-shadow:0 3px 5px #c9c8c8
+  }
+
+  button:active{
+  background-color: rgb(218, 165, 22);
   }
   
   h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
   }
   
   p {
-    font-size: 24px;
-    margin: 10px 0;
+  font-size: 24px;
+  margin: 10px 0;
   }
